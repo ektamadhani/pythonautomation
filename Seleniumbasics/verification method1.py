@@ -12,8 +12,7 @@ print(value2)
 value3 = driver.find_element_by_xpath('//*[@id="Pythonradio"]').is_selected()
 print(value3)
 driver.find_element_by_xpath('//*[@id="Pythonradio"]').click()
-value4 = driver.find_element_by_xpath('//*[@id="Pythonradio"]').is_selected()
+value4 = driver.find_element_by_xpath('//*[@id="Pythonradio"]').click()
 print(value4)
- nbnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
 
